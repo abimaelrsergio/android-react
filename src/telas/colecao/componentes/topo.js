@@ -11,5 +11,18 @@ export default function Topo() {
 }
 
 const estilos = StyleSheet.create({
-    
+    topo: {
+        width: '100%',
+        height: valor,
+    },
+    titulo: {
+        width: '100%',
+        position: 'absolute',
+        textAlign: 'center',
+        fontSize: 20,
+        lineHeight: 26,
+        color: 'blue',
+        fontWeight: 'bold',
+        padding: 6,
+    }
 });

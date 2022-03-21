@@ -1,14 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, Image, Dimensions, View } from 'react-native';
-import topo from '../../../assets/topo.jpeg';
 import logo from '../../../assets/logo.jpeg';
 import Texto from '../../componentes/Texto';
+import Topo from './componentes/topo';
 
 const width = Dimensions.get('screen').width;
 const altura = 168;
 const largura = 300;
 const valor = altura / largura * width;
-import Topo from './componentes/topo';
 
 export default function Colecao(){
     return <>
@@ -63,19 +62,5 @@ const estilos = StyleSheet.create({
     colecao: {
         paddingVertical: 10, // padding de cima e de baixo
         paddingHorizontal: 16// padding da esquerda e da direita
-    },
-    topo: {
-        width: '100%',
-        height: valor,
-    },
-    titulo: {
-        width: '100%',
-        position: 'absolute',
-        textAlign: 'center',
-        fontSize: 20,
-        lineHeight: 26,
-        color: 'blue',
-        fontWeight: 'bold',
-        padding: 6,
     }
 });
