@@ -8,11 +8,11 @@ const width = Dimensions.get('screen').width;
 const altura = 168;
 const largura = 300;
 const valor = altura / largura * width;
+import Topo from './componentes/topo';
 
 export default function Colecao(){
     return <>
-            <Image source={topo} style={estilos.topo} />
-            <Text style={estilos.titulo}>DETALHES DA COLEÇÃO DE LIVROS</Text>
+            <Topo />
             <View style={estilos.colecao}>
                 <Text style={estilos.nome}>Coleção de livros</Text>
                 <View style={estilos.cabecalhoFornecedor}>
