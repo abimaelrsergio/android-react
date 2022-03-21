@@ -1,8 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, Image, Dimensions, View } from 'react-native';
-import topo from '../../assets/topo.jpeg';
-import logo from '../../assets/logo.jpeg';
-import Texto from '../componentes/Texto';
+import topo from '../../../assets/topo.jpeg';
+import logo from '../../../assets/logo.jpeg';
+import Texto from '../../componentes/Texto';
 
 const width = Dimensions.get('screen').width;
 const altura = 168;
