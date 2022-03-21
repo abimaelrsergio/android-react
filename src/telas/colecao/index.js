@@ -1,13 +1,8 @@
 import React from 'react';
-import { StyleSheet, Text, Image, Dimensions, View } from 'react-native';
+import { StyleSheet, Text, Image, View } from 'react-native';
 import logo from '../../../assets/logo.jpeg';
 import Texto from '../../componentes/Texto';
 import Topo from './componentes/topo';
-
-const width = Dimensions.get('screen').width;
-const altura = 168;
-const largura = 300;
-const valor = altura / largura * width;
 
 export default function Colecao(){
     return <>
