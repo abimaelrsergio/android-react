@@ -1,6 +1,6 @@
 import React from 'react';
 import { StatusBar, StyleSheet, SafeAreaView, View } from 'react-native';
-import Colecao from './src/telas/Colecao';
+import Colecao from './src/telas/colecao/index';
 
 import { useFonts, Montserrat_400Regular, Montserrat_700Bold } from '@expo-google-fonts/montserrat';
 
