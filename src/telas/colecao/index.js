@@ -1,14 +1,13 @@
 import React from 'react';
-import { StyleSheet, Text, Image, View } from 'react-native';
-import logo from '../../../assets/logo.jpeg';
-import Texto from '../../componentes/Texto';
+import { StyleSheet, View } from 'react-native';
 import Topo from './componentes/topo';
+import Detalhe from './componentes/detalhes';
 
 export default function Colecao(){
     return <>
             <Topo />
             <View style={estilos.colecao}>
-               
+                <Detalhe/>               
             </View>
         </>;
 }

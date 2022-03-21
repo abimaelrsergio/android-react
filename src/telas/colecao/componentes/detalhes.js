@@ -1,8 +1,11 @@
 import React from 'react';
+import { View, Image } from 'react-native';
+import Texto from '../../../componentes/Texto'
+import logo from '../../../../assets/logo.jpeg';
 
 export default function Detalhes() {
     return <>
-        <Text style={estilos.nome}>Coleção de livros</Text>
+        <Texto style={estilos.nome}>Coleção de livros</Texto>
         <View style={estilos.cabecalhoFornecedor}>
             <Image source={logo} style={estilos.imagemFornecedor} />
             <Text style={estilos.fornecedor}>Livraria Santos Dumont</Text>
