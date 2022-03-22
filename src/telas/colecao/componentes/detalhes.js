@@ -3,18 +3,15 @@ import { View, Image, StyleSheet } from 'react-native';
 import Texto from '../../../componentes/Texto'
 import logo from '../../../../assets/logo.jpeg';
 
-export default function Detalhes() {
+export default function Detalhes({ nome, fornecedor, descricao, preco }) {
     return <>
-        <Texto style={estilos.nome}>Coleção de livros</Texto>
+        <Texto style={estilos.nome}>{ nome }</Texto>
         <View style={estilos.cabecalhoFornecedor}>
             <Image source={logo} style={estilos.imagemFornecedor} />
-            <Texto style={estilos.fornecedor}>Livraria Santos Dumont</Texto>
+            <Texto style={estilos.fornecedor}>{ fornecedor }</Texto>
         </View>
-        <Texto style={estilos.descricao}>
-            Livros importandos da França, todos escritos por autores
-            renomados.
-        </Texto>
-        <Texto style={estilos.preco}>R$ 350,00</Texto>
+        <Texto style={estilos.descricao}>{ descricao }</Texto>
+        <Texto style={estilos.preco}>{ preco }</Texto>
     </>;
 }
 const estilos = StyleSheet.create({
