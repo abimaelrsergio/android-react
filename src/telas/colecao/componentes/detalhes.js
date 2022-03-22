@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Image, StyleSheet } from 'react-native';
 import Texto from '../../../componentes/Texto'
 
-export default function Detalhes({ nome, fornecedor, descricao, preco }) {
+export default function Detalhes({ nome, fornecedor, descricao, preco, logo }) {
     return <>
         <Texto style={estilos.nome}>{ nome }</Texto>
         <View style={estilos.cabecalhoFornecedor}>

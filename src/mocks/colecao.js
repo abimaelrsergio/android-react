@@ -1,4 +1,4 @@
-import logo from '../../../../assets/logo.jpeg';
+import logo from '../../assets/logo.jpeg';
 
 const colecao = {
     topo: {
