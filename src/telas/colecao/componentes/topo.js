@@ -8,10 +8,10 @@ const altura = 168;
 const largura = 300;
 const valor = altura / largura * width;
 
-export default function Topo() {
+export default function Topo({ titulo }) {
     return <>
         <Image source={topo} style={estilos.topo} />
-        <Texto style={estilos.titulo}>Detalhes da coleção de livros</Texto>
+        <Texto style={estilos.titulo}>{ titulo }</Texto>
     </>;
 }
 
