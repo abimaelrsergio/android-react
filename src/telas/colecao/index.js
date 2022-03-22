@@ -3,11 +3,11 @@ import { StyleSheet, View } from 'react-native';
 import Topo from './componentes/topo';
 import Detalhe from './componentes/detalhes';
 
-export default function Colecao(){
+export default function Colecao({ topo, detalhes }){
     return <>
-            <Topo />
+            <Topo {...topo} />
             <View style={estilos.colecao}>
-                <Detalhe/>               
+                <Detalhe {...detalhes}/>               
             </View>
         </>;
 }
