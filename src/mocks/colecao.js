@@ -15,6 +15,23 @@ const colecao = {
         preco: 'R$ 350,00',
         logo: logo,
         botao: "Comprar"
+    },
+    livros: {
+        titulo: 'Livros da coleção',
+        lista: [
+            {
+                nome: 'Arquitetura limpa',
+                imagem: arquiteturalimpa
+            },
+            {
+                nome: 'Domain Driven Desing',
+                imagem: ddd
+            },
+            {
+                nome: 'Codigo limpo',
+                imagem: codigolimpo
+            }
+        ] 
     }
 };
 
