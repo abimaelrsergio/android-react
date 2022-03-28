@@ -7,7 +7,7 @@ export default function Colecao({ topo, detalhes }){
     return <>
             <Topo {...topo} />
             <View style={estilos.colecao}>
-                <Detalhe {...detalhes}/>               
+                <Detalhe {...detalhes}/>                
             </View>
         </>;
 }

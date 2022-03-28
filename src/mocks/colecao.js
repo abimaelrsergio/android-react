@@ -9,7 +9,8 @@ const colecao = {
         fornecedor: 'Livraria Santos Dumont',
         descricao: 'Livros importandos da França, todos escritos por autores renomados.',
         preco: 'R$ 350,00',
-        logo: logo
+        logo: logo,
+        botao: "Comprar"
     }
 };
 
