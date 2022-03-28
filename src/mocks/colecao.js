@@ -1,4 +1,8 @@
 import logo from '../../assets/logo.jpeg';
+import ddd from '../../assets/ddd.jpeg';
+import codigolimpo from '../../assets/codigolimpo.jpeg';
+import arquiteturalimpa from '../../assets/arquiteturalimpa.jpeg';
+
 
 const colecao = {
     topo: {
