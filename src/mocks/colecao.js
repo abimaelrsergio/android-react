@@ -20,15 +20,15 @@ const colecao = {
         titulo: 'Livros da coleção',
         lista: [
             {
-                nome: 'Arquitetura limpa',
+                nome: '0 Arquitetura limpa',
                 imagem: arquiteturalimpa
             },
             {
-                nome: 'Domain Driven Desing',
+                nome: '0.1 Domain Driven Desing',
                 imagem: ddd
             },
             {
-                nome: 'Codigo limpo',
+                nome: '0.2 Codigo limpo',
                 imagem: codigolimpo
             },
             {
