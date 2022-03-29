@@ -4,12 +4,12 @@ import Topo from './componentes/topo';
 import Detalhe from './componentes/detalhes';
 import Livros from './componentes/livros';
 
-export default function Colecao({ topo, detalhes }){
+export default function Colecao({ topo, detalhes, livro }){
     return <>
             <Topo {...topo} />
             <View style={estilos.colecao}>
                 <Detalhe {...detalhes}/>
-                <Livros/>                
+                <Livros {...livro}/>                
             </View>
         </>;
 }

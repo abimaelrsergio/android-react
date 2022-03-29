@@ -3,7 +3,7 @@ import { StatusBar, StyleSheet, SafeAreaView } from 'react-native';
 import Colecao from './src/telas/colecao/index';
 
 import { useFonts, Montserrat_400Regular, Montserrat_700Bold } from '@expo-google-fonts/montserrat';
-import mock from './src/mocks/colecao';
+import colecao from './src/mocks/colecao';
 import AppLoading from 'expo-app-loading';
 
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
     return <AppLoading />
   }
   return <SafeAreaView style={styles.container}>
-          <Colecao {...mock} />
+          <Colecao {...colecao} />
           <StatusBar />
          </SafeAreaView>;
 }

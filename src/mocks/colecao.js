@@ -16,7 +16,7 @@ const colecao = {
         logo: logo,
         botao: "Comprar"
     },
-    livros: {
+    livro: {
         titulo: 'Livros da coleção',
         lista: [
             {
@@ -30,7 +30,43 @@ const colecao = {
             {
                 nome: 'Codigo limpo',
                 imagem: codigolimpo
-            }
+            },
+            {
+                nome: 'Arquitetura limpa',
+                imagem: arquiteturalimpa
+            },
+            {
+                nome: 'Domain Driven Desing',
+                imagem: ddd
+            },
+            {
+                nome: 'Codigo limpo',
+                imagem: codigolimpo
+            },
+            {
+                nome: 'Arquitetura limpa',
+                imagem: arquiteturalimpa
+            },
+            {
+                nome: 'Domain Driven Desing',
+                imagem: ddd
+            },
+            {
+                nome: 'Codigo limpo',
+                imagem: codigolimpo
+            },
+            {
+                nome: 'Arquitetura limpa',
+                imagem: arquiteturalimpa
+            },
+            {
+                nome: 'Domain Driven Desing',
+                imagem: ddd
+            },
+            {
+                nome: 'Codigo limpo',
+                imagem: codigolimpo
+            },                                    
         ] 
     }
 };
