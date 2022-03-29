@@ -32,39 +32,39 @@ const colecao = {
                 imagem: codigolimpo
             },
             {
-                nome: 'Arquitetura limpa',
+                nome: '1 Arquitetura limpa',
                 imagem: arquiteturalimpa
             },
             {
-                nome: 'Domain Driven Desing',
+                nome: '2 Domain Driven Desing',
                 imagem: ddd
             },
             {
-                nome: 'Codigo limpo',
+                nome: '3 Codigo limpo',
                 imagem: codigolimpo
             },
             {
-                nome: 'Arquitetura limpa',
+                nome: '4 Arquitetura limpa',
                 imagem: arquiteturalimpa
             },
             {
-                nome: 'Domain Driven Desing',
+                nome: '5 Domain Driven Desing',
                 imagem: ddd
             },
             {
-                nome: 'Codigo limpo',
+                nome: '6 Codigo limpo',
                 imagem: codigolimpo
             },
             {
-                nome: 'Arquitetura limpa',
+                nome: '7 Arquitetura limpa',
                 imagem: arquiteturalimpa
             },
             {
-                nome: 'Domain Driven Desing',
+                nome: '8 Domain Driven Desing',
                 imagem: ddd
             },
             {
-                nome: 'Codigo limpo',
+                nome: '9 Codigo limpo',
                 imagem: codigolimpo
             },                                    
         ] 

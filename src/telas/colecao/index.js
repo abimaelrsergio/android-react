@@ -1,17 +1,17 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { ScrollView, StyleSheet, View } from 'react-native';
 import Topo from './componentes/topo';
 import Detalhe from './componentes/detalhes';
 import Livros from './componentes/livros';
 
 export default function Colecao({ topo, detalhes, livro }){
-    return <>
+    return <ScrollView>
             <Topo {...topo} />
             <View style={estilos.colecao}>
                 <Detalhe {...detalhes}/>
                 <Livros {...livro}/>                
             </View>
-        </>;
+        </ScrollView>;
 }
 
 const estilos = StyleSheet.create({
