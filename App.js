@@ -15,7 +15,7 @@ export default function App() {
   if (!fontCarregada) {
     return <AppLoading />
   }
-  return <SafeAreaView style={styles.container}>
+  return <SafeAreaView style={{ flex: 1 }}>
           <Colecao {...colecao} />
           <StatusBar />
          </SafeAreaView>;

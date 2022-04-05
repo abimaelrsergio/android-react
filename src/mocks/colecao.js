@@ -16,7 +16,7 @@ const colecao = {
         logo: logo,
         botao: "Comprar"
     },
-    livro: {
+    livros: {
         titulo: 'Livros da coleção',
         lista: [
             {
